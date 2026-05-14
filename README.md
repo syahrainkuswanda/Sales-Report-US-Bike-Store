@@ -2,7 +2,7 @@
 # 🚴 Performance Sales Dashboard — US Bike Store
 > Turning 5 years of retail transaction data into strategic business decisions.
 
-[Looker Studio] (https://datastudio.google.com/s/lD8FewLx_Aw)
+[Data Studio] (https://datastudio.google.com/s/lD8FewLx_Aw)
 
 [Google Sheets] (https://docs.google.com/spreadsheets/d/1LtI5xKywzNBJuwSr3d3SL73UA-WFNQxBOkPAAmgE16g/edit?usp=sharing)
 
@@ -14,7 +14,7 @@ Most dashboards show you numbers. This one tells you what to do about them.
 
 This project analyzes **1.3 million orders** across **6 countries** and **5 years (2011–2016)** for a bike retail company. The goal was to go beyond surface-level reporting and surface the kind of findings that directly affect strategic decisions — product mix, market prioritization, customer segmentation, and transaction quality.
 
-Built as a **2-page interactive dashboard** in Looker Studio, the project covers everything from data preparation to business storytelling.
+Built as a **2-page interactive dashboard** in Data Studio, the project covers everything from data preparation to business storytelling.
 
 🔗 **[View Live Dashboard](https://datastudio.google.com/s/lD8FewLx_Aw)**
 
@@ -97,10 +97,10 @@ AOV fluctuated between near-zero and $4K with no monitoring system in place. Spi
 ### Data Preparation
 - Raw dataset: transaction-level records with Date, Demographics, Product, and Financial columns
 - Created **TRX ID** as unique transaction identifier
-- Built calculated fields for AOV and Basket Size directly in Looker Studio
+- Built calculated fields for AOV and Basket Size directly in Data Studio
 - No Customer ID available — analysis adapted to transaction-based approach
 
-### Calculated Fields (Looker Studio)
+### Calculated Fields (Data Studio)
 ```
 Average Order Value (AOV) = SUM(Revenue) / SUM(Order_Quantity)
 
@@ -115,22 +115,8 @@ All dashboard filters (Country, State, Product Category, Sub-Category, Product, 
 ## ⚠️ Limitations & Honest Notes
 
 - No Customer ID in the dataset — customer-level analysis (CLV, churn, repeat rate) is not possible from this data
-- YoY comparison requires blended data sources in Looker Studio due to the absence of a native PREVIOUS PERIOD function
+- YoY comparison requires blended data sources in Data Studio due to the absence of a native PREVIOUS PERIOD function
 - AOV spikes may indicate data anomalies or bulk orders — further investigation would require order-level detail beyond what's available
-
----
-
-## 📁 Repository Contents
-
-```
-📦 bike-store-dashboard
- ┣ 📂 assets
- ┃ ┣ 📸 page1-overview.png
- ┃ ┣ 📸 page2-customer-intelligence.png
- ┃ └ 📸 data-sample.png
- ┣ 📄 README.md
- └ 📄 data-dictionary.md
-```
 
 ---
 
