@@ -2,8 +2,9 @@
 # 🚴 Performance Sales Dashboard — US Bike Store
 > Turning 5 years of retail transaction data into strategic business decisions.
 
-[![Looker Studio] (https://datastudio.google.com/s/lD8FewLx_Aw)
-[![Google Sheets](https://docs.google.com/spreadsheets/d/1LtI5xKywzNBJuwSr3d3SL73UA-WFNQxBOkPAAmgE16g/edit?usp=sharing)
+[Looker Studio] (https://datastudio.google.com/s/lD8FewLx_Aw)
+
+[Google Sheets] (https://docs.google.com/spreadsheets/d/1LtI5xKywzNBJuwSr3d3SL73UA-WFNQxBOkPAAmgE16g/edit?usp=sharing)
 
 ---
 
